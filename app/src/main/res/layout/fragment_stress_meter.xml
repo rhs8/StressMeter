@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".StressMeterFragment">
+
+    <TextView
+        android:id="@+id/tv_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap on the image that best captures how stressed you feel right now"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:paddingTop="8dp" />
+
+    <GridView
+        android:id="@+id/grid_stress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="4"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth" />
+
+    <Button
+        android:id="@+id/btn_more_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="MORE IMAGES"
+        android:textColor="#D3D3D3"
+        android:backgroundTint="#002B5B"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:elevation="2dp" />
+
+</LinearLayout>
+
+

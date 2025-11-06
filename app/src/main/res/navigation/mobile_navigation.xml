@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_stress_meter">
+    <fragment
+        android:id="@+id/nav_stress_meter"
+        android:name="com.rana_hoshyarsadeghi.stressmeter.StressMeterFragment"
+        android:label="@string/menu_stress_meter"
+        tools:layout="@layout/fragment_stress_meter" />
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.rana_hoshyarsadeghi.stressmeter.ResultsFragment"
+        android:label="@string/menu_results"
+        tools:layout="@layout/fragment_results" />
+
+</navigation>
+
